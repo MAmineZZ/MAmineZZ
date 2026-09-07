@@ -260,7 +260,16 @@ def render_gif() -> None:
 
         with ThreadPoolExecutor(max_workers=4) as executor:
             pngs = list(executor.map(render, sources))
-        frames = [Image.open(path).convert("RGB") for path in pngs]
+        frames = []
+        for path in pngs:
+            # SVG corners are transparent. Simply converting RGBA to RGB keeps
+            # their hidden color, which can become a bright palette artifact.
+            # Composite explicitly so GIFs have stable opaque navy corners in
+            # every viewer and do not depend on disposal/transparency support.
+            with Image.open(path) as png:
+                rgba = png.convert("RGBA")
+                matte = Image.new("RGBA", rgba.size, "#0d1627")
+                frames.append(Image.alpha_composite(matte, rgba).convert("RGB"))
         # Sample the entire rotation so moving faces share a stable palette.
         atlas = Image.new("RGB", (440 * 4, 340 * 4))
         for index in range(16):

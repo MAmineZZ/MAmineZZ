@@ -7,9 +7,9 @@
 **Software Application Engineer · C# / .NET · React + TypeScript · AI tooling**
 
 <p>
-  <a href="#development-stack">Development stack</a> &nbsp; / &nbsp;
-  <a href="#selected-projects">Selected projects</a> &nbsp; / &nbsp;
-  <a href="#current-training-arc">Training arc</a> &nbsp; / &nbsp;
+  <a href="#user-content-development-stack">Development stack</a> &nbsp; / &nbsp;
+  <a href="#user-content-selected-projects">Selected projects</a> &nbsp; / &nbsp;
+  <a href="#user-content-current-training-arc">Training arc</a> &nbsp; / &nbsp;
   <a href="https://github.com/MAmineZZ?tab=repositories">All repositories ↗</a>
 </p>
 
