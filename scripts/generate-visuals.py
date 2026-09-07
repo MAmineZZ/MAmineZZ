@@ -276,7 +276,7 @@ def render_gif() -> None:
             atlas.paste(frames[index * 10], ((index % 4) * 440, (index // 4) * 340))
         palette = atlas.quantize(colors=96, method=Image.Quantize.MEDIANCUT)
         quantized = [frame.quantize(palette=palette, dither=Image.Dither.NONE) for frame in frames]
-        output = OUT / "system-core.gif"
+        output = OUT / "system-core-loop.gif"
         quantized[0].save(output, save_all=True, append_images=quantized[1:],
                           duration=100, loop=0, optimize=True, disposal=1)
         frames[0].save(OUT / "system-core-still.png", optimize=True)

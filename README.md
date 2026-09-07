@@ -7,10 +7,9 @@
 **Software Application Engineer · C# / .NET · React + TypeScript · AI tooling**
 
 <p>
-  <a href="#user-content-development-stack">Development stack</a> &nbsp; / &nbsp;
-  <a href="#user-content-selected-projects">Selected projects</a> &nbsp; / &nbsp;
-  <a href="#user-content-current-training-arc">Training arc</a> &nbsp; / &nbsp;
-  <a href="https://github.com/MAmineZZ?tab=repositories">All repositories ↗</a>
+  <a href="https://github.com/MAmineZZ?tab=repositories">Browse my code ↗</a> &nbsp; / &nbsp;
+  <a href="https://www.linkedin.com/in/zinddine-mohamed-amine/">LinkedIn ↗</a> &nbsp; / &nbsp;
+  <a href="https://github.com/MAmineZZ/neetcode-submissions">C# practice ↗</a>
 </p>
 
 <table>
@@ -25,7 +24,7 @@
 <td width="40%" align="center" valign="middle">
 <picture>
   <source media="(prefers-reduced-motion: reduce)" srcset="./assets/v2/system-core-still.svg" />
-  <img src="./assets/v2/system-core.gif" alt="An animated 3D holographic crystal rotating above an orbital platform." width="330" />
+  <img src="./assets/v2/system-core-loop.gif" alt="An animated 3D holographic crystal rotating above an orbital platform." width="330" />
 </picture>
 <br />
 <sub><a href="./assets/v2/system-core-still.svg">Static artwork</a></sub>
