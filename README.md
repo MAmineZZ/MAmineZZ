@@ -1,82 +1,138 @@
 <p align="center">
-  <img src="./assets/anime-banner.png" alt="MAmineZZ — After hours, build mode. An original anime developer studio overlooking a neon city at night." width="100%" />
+  <img src="./assets/anime-banner-v2.png" alt="MAmineZZ — a futuristic anime developer studio. The character has short navy hair inspired by Aomine and wears black Sony headphones." width="100%" />
 </p>
+
+# ZINDDINE Mohamed Amine
+
+**Software Application Engineer · C# / .NET · React + TypeScript · AI tooling**
+
+<p>
+  <a href="#development-stack">Development stack</a> &nbsp; / &nbsp;
+  <a href="#selected-projects">Selected projects</a> &nbsp; / &nbsp;
+  <a href="#current-training-arc">Training arc</a> &nbsp; / &nbsp;
+  <a href="https://github.com/MAmineZZ?tab=repositories">All repositories ↗</a>
+</p>
+
+<table>
+<tr>
+<td width="60%" valign="top">
+<h3>Engineer by craft. Geek by default.</h3>
+<p>I build full-stack projects to understand the systems behind them: how APIs enforce permissions, how interfaces manage state, and how software stays understandable as it grows.</p>
+<p><b>Main focus</b><br />C# and .NET backends, React and TypeScript interfaces, and useful AI integrations.</p>
+<p><b>Engineering interests</b><br />Clean architecture, application security, testable code, and developer tools.</p>
+<p><b>Off-duty mode</b><br />Anime, Valorant, League of Legends, and the next side project.</p>
+</td>
+<td width="40%" align="center" valign="middle">
+<picture>
+  <source media="(prefers-reduced-motion: reduce)" srcset="./assets/v2/system-core-still.svg" />
+  <img src="./assets/v2/system-core.gif" alt="An animated 3D holographic crystal rotating above an orbital platform." width="330" />
+</picture>
+<br />
+<sub><a href="./assets/v2/system-core-still.svg">Static artwork</a></sub>
+</td>
+</tr>
+</table>
+
+<p align="center"><img src="./assets/v2/signal-divider.svg" alt="" width="100%" /></p>
+
+## Development stack
 
 <p align="center">
-  <img src="./assets/status.svg" alt="Build mode: on. Current arc: keep learning." width="360" />
+  <img src="./assets/v2/tech-csharp.svg" alt="C#" height="100" />
+  <img src="./assets/v2/tech-dotnet.svg" alt=".NET" height="100" />
+  <img src="./assets/v2/tech-react.svg" alt="React" height="100" />
+  <img src="./assets/v2/tech-typescript.svg" alt="TypeScript" height="100" />
+  <img src="./assets/v2/tech-git.svg" alt="Git" height="100" />
 </p>
 
-<h1 align="center">ZINDDINE Mohamed Amine</h1>
+Technologies you'll find in my public projects:
 
-<p align="center">
-  <b>Software Application Engineer · C# / .NET · React / TypeScript</b><br />
-  Useful software. Better fundamentals. One more episode.
-</p>
+| Layer | Technologies | What I'm building with them |
+| :--- | :--- | :--- |
+| **Backend** | C# · ASP.NET Core · EF Core · MediatR | Layered APIs, application logic, and data access |
+| **Frontend** | React · TypeScript · Vite | Component-based interfaces and application state |
+| **Data** | SQL Server · Redis | Relational persistence and cached review results |
+| **Testing** | xUnit · Moq · Testcontainers · Vitest · React Testing Library | Unit, integration, and UI test suites |
+| **Delivery** | Git · GitHub Actions · Docker | Version control, CI workflows, and reproducible environments |
 
-<p align="center">
-  <a href="https://github.com/MAmineZZ?tab=repositories">Explore my repositories</a>
-  &nbsp;·&nbsp;
-  <a href="https://github.com/MAmineZZ/neetcode-submissions">Follow the training arc</a>
-</p>
+## Selected projects
 
-## ⌘ Player profile
+<table>
+<tr>
+<td colspan="2" valign="top">
+<h3><a href="https://github.com/MAmineZZ/devsecops-copilot">DevSecOps Copilot ↗</a></h3>
+<p><b>AI-assisted code review · Full-stack learning project · In progress</b></p>
+<p>A GitHub-connected workspace for exploring code review, security checks, and AI-assisted development.</p>
+<ul>
+<li><b>Backend:</b> a layered .NET API with role-based permissions, audit endpoints, and verified webhook signatures.</li>
+<li><b>Data flow:</b> EF Core with SQL Server, Redis caching, and AI review processing.</li>
+<li><b>Interface:</b> React and TypeScript, with backend and frontend test suites in the repository.</li>
+</ul>
+<p><code>C#</code> <code>ASP.NET Core</code> <code>React</code> <code>SQL Server</code> <code>Redis</code></p>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<h3><a href="https://github.com/MAmineZZ/react-capstone">Little Lemon ↗</a></h3>
+<p><b>Frontend capstone · React + TypeScript</b></p>
+<p>A restaurant website and booking flow built for the Meta Front-End Developer capstone.</p>
+<p><b>Inside:</b> reusable components, Formik and Yup validation, Styled Components, and booking-form tests.</p>
+<p><code>React</code> <code>TypeScript</code> <code>Jest</code></p>
+</td>
+<td width="50%" valign="top">
+<h3><a href="https://github.com/MAmineZZ/neetcode-submissions">NeetCode practice ↗</a></h3>
+<p><b>C# fundamentals · Problem solving</b></p>
+<p>A growing collection of submissions covering Two Sum, Contains Duplicate, Valid Anagram, and Group Anagrams.</p>
+<p><b>Focus:</b> correctness, complexity analysis, and choosing suitable data structures.</p>
+<p><code>C#</code> <code>Arrays</code> <code>Strings</code> <code>Hash maps</code></p>
+</td>
+</tr>
+</table>
 
-I like understanding how things work, then building something useful with them. My focus is **C# / .NET and React / TypeScript**, with a growing interest in AI applications and the engineering behind them.
+<details>
+<summary><b>Open the engineering notebook</b></summary>
+<br />
+
+Questions I keep returning to while building:
+
+- **Boundaries:** which layer should own this behaviour?
+- **Security:** is access checked at the API, and can incoming events be trusted?
+- **Testing:** which test would catch a real failure here?
+- **AI:** does the feature solve a useful problem, and can its behaviour be checked?
+- **Maintainability:** will the next change be straightforward to understand?
+
+DevSecOps Copilot is a learning and portfolio project. Its repository documents implementation and experiments; the description above isn't a claim of production deployment or a current test pass rate.
+
+</details>
+
+## Current training arc
+
+| Focus | What I'm working on |
+| :--- | :--- |
+| **C# / .NET** | Stronger language fundamentals and clearer backend design |
+| **React / TypeScript** | Reusable components, state management, and accessible interfaces |
+| **DSA** | Arrays, strings, hash maps, and time/space complexity |
+| **Architecture** | Separation of concerns, authentication, caching, and testing |
+| **AI engineering** | Integrations with useful and testable behaviour |
+
+<details>
+<summary><b>Load developer.config.cs</b></summary>
 
 ```csharp
-var player = new
+var developer = new
 {
     Handle = "MAmineZZ",
-    Class = "Software Application Engineer",
-    MainQuest = "Turn ideas into useful software",
-    TrainingArc = "DSA, system design, AI applications",
-    SideQuests = new[] { "Anime", "Gaming", "Piano" },
-    Motto = "Understand it. Build it. Level up."
+    Focus = new[] { "C#", ".NET", "React", "TypeScript" },
+    Interests = new[] { "AI tooling", "Anime", "Gaming" },
+    Approach = "Understand it. Build it. Improve it."
 };
 ```
 
-## ⚡ My loadout
+</details>
 
-<p>
-  <img src="./assets/csharp.svg" alt="C#" height="38" />
-  <img src="./assets/dotnet.svg" alt=".NET" height="38" />
-  <img src="./assets/react.svg" alt="React" height="38" />
-  <img src="./assets/typescript.svg" alt="TypeScript" height="38" />
-  <img src="./assets/git.svg" alt="Git" height="38" />
-</p>
-
-**Currently leveling up:** data structures and algorithms in C#, clean architecture, system design, and AI-assisted development.
-
-## 🚀 Quest log
-
-### [DevSecOps Copilot ↗](https://github.com/MAmineZZ/devsecops-copilot)
-
-Building an AI-assisted code-review workspace with .NET and React.
-
-`C#` `.NET` `React` `TypeScript` · **In progress**
-
-### [Little Lemon ↗](https://github.com/MAmineZZ/react-capstone)
-
-A restaurant interface built with React and TypeScript for the Meta Front-End Developer capstone.
-
-`React` `TypeScript` `Styled Components` `Jest`
-
-### [The training arc ↗](https://github.com/MAmineZZ/neetcode-submissions)
-
-My C# data structures, algorithms, and NeetCode solutions. Getting better one problem at a time.
-
-`C#` `DSA` `Problem solving`
-
-## 🎮 Away from the keyboard… mostly
-
-- **Anime:** always room for one more episode.
-- **Gaming:** Valorant and League of Legends.
-- **Music:** piano, synths, and music production.
-- **Side projects:** turning a small idea into something I can actually use.
-
-<br />
+---
 
 <p align="center">
-  <img src="./assets/footer.svg" alt="The next arc starts with one commit. See you in the next build." width="360" />
+  <b>Build with intent. Keep learning. Enjoy the next episode.</b><br />
+  <sub>Anime enthusiast · Valorant · League of Legends</sub>
 </p>
-

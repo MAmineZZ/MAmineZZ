@@ -1,27 +1,33 @@
-# Original anime banner
+# Profile artwork
 
-Created for the MAmineZZ GitHub profile using the built-in image generation tool.
+## Anime banner v2
 
-## Prompt
+The current banner (`assets/anime-banner-v2.png`) was created with the built-in image generation tool by editing the original banner. The user requested short navy hair inspired by Aomine from *Kuroko no Basuke* and black Sony over-ear headphones worn on the character. The character is an illustrated fictional developer, not a portrait.
 
-Use case: stylized-concept.
-Asset type: polished ultrawide GitHub profile banner, around 1800 by 650 pixels, landscape 2.7:1 composition. It must remain beautiful and typography legible when displayed at 830 pixels wide.
-Primary request: create an original anime-film-inspired cyberpunk developer banner for the profile MAmineZZ, combining serious craft and geek anime enthusiasm.
-Scene/backdrop: after midnight in a stylish small developer studio, rain-speckled enormous window looking over a dense futuristic city, distant cyan signs and subtle violet lights. A dark desk, elegant dual monitors with abstract tiny code, several manga volumes, a small original mecha model, and headphones. 
-Subject: on the RIGHT third of the image, one original young adult male anime developer, short dark slightly messy hair, dark hoodie, seated in side/back three-quarter view, immersed in coding. No real person's likeness and no existing franchise character.
-Style/medium: exceptional cinematic hand-drawn anime key visual, refined cel shading, sophisticated linework, richly layered atmosphere, crisp foreground details and softly glowing rainy distance. Tasteful and authentic, not a generic 3D illustration.
-Composition/framing: ultrawide. The LEFT half is dark near-black/navy negative space with minimal atmospheric texture for strong typographic hierarchy. At left around 9% horizontal inset and vertically centered, typeset this exact copy:
-Small cyan monospaced kicker: "AFTER HOURS // BUILD MODE"
-Very large bold clean white modern display heading: "MAmineZZ"
-Small generously tracked white/light gray subline: "CODE • ANIME • REPEAT"
-Spell name exactly M A m i n e Z Z, with capital M, capital A, lowercase mine, and capital ZZ. Do not add any other text anywhere. Name is the principal typographic focal point, approximately 104px at source 1800px width.
-Lighting/mood: quiet focus, rain, cyan monitor rim light, deep navy shadows, sparse violet accents, anime title-card aesthetic.
-Color palette: near-black #0D1117 / deep navy #10182C, cyan #67E8F9, restrained violet #A78BFA, white.
-Constraints: no GitHub UI, badges, stats, browser chrome, QR codes, watermarks, random logos, existing anime or gaming characters, photorealism, extra fingers, oversaturated rainbow colors, clutter behind text. Keep all three text lines fully inside safe edges with ample breathing room.
+Sony and anime references express the user's requested aesthetic; they imply no affiliation or endorsement.
+
+### Edit prompt
+
+Use case: precise-object-edit
+Asset type: cinematic ultra-wide GitHub profile banner, preserve landscape 2048 x 741 proportions.
+Edit target: the supplied anime developer studio banner.
+Primary request: visibly transform the male character to have Daiki Aomine's close-cropped SHORT dark navy-blue hair from Kuroko no Basuke, and add matte-black SONY over-ear wireless headphones WORN ON HIS HEAD.
+Subject details: adult male anime developer, warm dark tan skin, athletic facial structure in side/rear three-quarter view. Aomine-inspired very short spiky top, tightly trimmed short sides and clean exposed nape, absolutely NO long fringe, shaggy hair, shoulder-length locks or bangs covering the ear. The hair silhouette must be dramatically shorter than the original. Show the near earcup and subtle but readable small SONY wordmark on the headphone headband/earcup. Headphones must be physically on the head and covering his ears. Remove the spare headphones on the desk.
+Scene enhancement: premium futuristic anime developer studio with a few sophisticated transparent holographic code panes and one cyan luminous 3D data cube floating near the monitors, subtle cyan/violet reflections. Keep rainy cyberpunk city, nighttime atmosphere, monitors, and manga/mecha desk details. Make anime subject and Sony headphones clearly readable despite dark setting.
+Composition: preserve the wide banner, quiet dark left typography area, title large and highly legible, character on right, slightly turn face toward camera enough to show the cropped haircut and near Sony earcup. High-end cinematic anime art, finely drawn character, dimensional lighting, textured materials.
+Text (verbatim, preserve exact typography and placement):
+"AFTER HOURS // BUILD MODE"
+"MAmineZZ"
+"CODE • ANIME • REPEAT"
+Constraints: preserve exact spelling and capitalization M A m i n e Z Z. No added personal names. No music instruments or music-production imagery. No watermark. No extra people. No extra slogans. No fake UI outside the scene. Character hair MUST be short like Aomine, Sony headphones MUST be worn.
 
 
-## Output
+## Animated geometric assets
 
-`assets/anime-banner.png` — 2084 × 754 pixels.
+The dimensional technology tiles are generated from editable SVG source by `scripts/generate-tech-tiles.py`. The 3D crystal and animated signal divider are generated by `scripts/generate-visuals.py`.
 
-The original generated image is used unchanged. The illustrated developer is an original fictional character, not a portrait.
+Motion is decorative. CSS-based animations include reduced-motion rules. The 3D GIF has a linked static SVG alternative; the README additionally uses a reduced-motion picture source as progressive enhancement. GitHub also provides a GIF autoplay preference. There are no scripts, remote image services, access tokens, trackers, or live status claims in these assets.
+
+## Previous artwork
+
+The original banner remains in the repository history and assets for reference. The README uses only the v2 banner.

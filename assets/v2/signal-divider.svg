@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="44" viewBox="0 0 900 44" role="img" aria-labelledby="title desc">
+<title id="title">Holographic signal divider</title>
+<desc id="desc">A thin cyan and violet circuit connects three shaded geometric diamonds. A subtle light flows along the circuit. Motion stops when reduced motion is preferred; the static circuit remains visible.</desc>
+<defs>
+ <linearGradient id="beam"><stop stop-color="#55ded8" stop-opacity="0"/><stop offset=".18" stop-color="#55ded8" stop-opacity=".3"/><stop offset=".5" stop-color="#92cff0" stop-opacity=".7"/><stop offset=".82" stop-color="#ad92ef" stop-opacity=".3"/><stop offset="1" stop-color="#ad92ef" stop-opacity="0"/></linearGradient>
+ <linearGradient id="flare"><stop stop-color="#55ded8" stop-opacity="0"/><stop offset=".5" stop-color="#adf7ee" stop-opacity=".8"/><stop offset="1" stop-color="#ad92ef" stop-opacity="0"/></linearGradient>
+ <filter id="soft" x="-50%" y="-300%" width="200%" height="700%"><feGaussianBlur stdDeviation="1.7"/></filter>
+ <clipPath id="signal"><rect x="80" y="15" width="740" height="14"/></clipPath>
+</defs>
+<style>
+ .light {animation:transmit 10s linear infinite}
+ @keyframes transmit {from {transform:translateX(-140px)} to {transform:translateX(940px)}}
+ @media (prefers-reduced-motion:reduce) {.light {animation:none;opacity:0}}
+</style>
+<path d="M16 22H327L339 15H415M485 15H561L573 22H884" fill="none" stroke="url(#beam)" stroke-width="1"/>
+<path d="M105 27H278L286 22M622 22L630 27H795" fill="none" stroke="url(#beam)" stroke-width=".65" opacity=".5"/>
+<g clip-path="url(#signal)"><path class="light" d="M-55 22H55" stroke="url(#flare)" stroke-width="2" filter="url(#soft)"/></g>
+<g stroke="#91dadb" stroke-width=".65" stroke-linejoin="round">
+ <path d="M438 22L450 6L462 22L450 37Z" fill="#182e48"/>
+ <path d="M450 6L462 22L450 19Z" fill="#70cbd1"/>
+ <path d="M450 6L450 19L438 22Z" fill="#26768c"/>
+ <path d="M438 22L450 19L450 37Z" fill="#315b85"/>
+ <path d="M450 19L462 22L450 37Z" fill="#796fb9"/>
+</g>
+<g stroke-width=".6" stroke-linejoin="round">
+ <path d="M414 22L420 14L426 22L420 30Z" fill="#214558" stroke="#62b5bd"/>
+ <path d="M420 14L426 22L420 20Z" fill="#78b7c3"/><path d="M420 20L426 22L420 30Z" fill="#427184"/>
+ <path d="M474 22L480 14L486 22L480 30Z" fill="#413d68" stroke="#a69ad1"/>
+ <path d="M480 14L486 22L480 20Z" fill="#aba3da"/><path d="M480 20L486 22L480 30Z" fill="#7b6baf"/>
+</g>
+<path d="M388 22h10m104 0h10" stroke="#8cc9d8" opacity=".5"/>
+</svg>

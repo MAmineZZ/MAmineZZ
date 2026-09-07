@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="138" height="116" viewBox="0 0 138 116" role="img" aria-labelledby="title desc">
+  <title id="title">React</title>
+  <desc id="desc">A dimensional React technology tile with a gentle floating animation.</desc>
+  <defs>
+    <linearGradient id="face" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#8ceaff"/><stop offset=".5" stop-color="#087e9d"/><stop offset="1" stop-color="#182c51"/></linearGradient>
+    <linearGradient id="top"><stop stop-color="#f0f9ff"/><stop offset="1" stop-color="#8ceaff"/></linearGradient>
+    <radialGradient id="aura"><stop stop-color="#8ceaff" stop-opacity=".22"/><stop offset="1" stop-color="#087e9d" stop-opacity="0"/></radialGradient>
+  </defs>
+  <style>
+    .tile{animation:float 4.8s ease-in-out infinite;transform-box:fill-box;transform-origin:center}
+    @keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-4px)}}
+    @media(prefers-reduced-motion:reduce){.tile{animation:none}}
+  </style>
+  <rect x=".5" y=".5" width="137" height="115" rx="10" fill="#0c1523" stroke="#26374d"/>
+  <ellipse cx="70" cy="72" rx="57" ry="25" fill="url(#aura)"/>
+  <ellipse cx="70" cy="83" rx="32" ry="5" fill="#03070d"/>
+  <g class="tile">
+    <path d="M38 26 53 15 105 15 90 26Z" fill="url(#top)"/>
+    <path d="M90 26 105 15 105 66 90 78Z" fill="#087e9d"/>
+    <rect x="38" y="26" width="52" height="52" rx="2" fill="url(#face)" stroke="#8ceaff" stroke-opacity=".75"/>
+    <path d="M42 32H86M42 35H60" stroke="white" opacity=".25"/>
+    <text x="64" y="59" text-anchor="middle" fill="#ffffff" font-family="DejaVu Sans,Arial,sans-serif" font-size="13" font-weight="700">React</text>
+    <path d="M94 33 101 28M94 39 101 34" stroke="#8ceaff" opacity=".55"/>
+  </g>
+  <text x="69" y="103" text-anchor="middle" fill="#dfefff" font-family="DejaVu Sans,Arial,sans-serif" font-size="12" font-weight="600">React</text>
+</svg>
