@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="360" height="74" viewBox="50 0 360 74" role="img" aria-labelledby="title desc">
+  <title id="title">The next arc starts with one commit</title>
+  <desc id="desc">See you in the next build.</desc>
+  <rect x="50" y="0" width="360" height="74" rx="8" fill="#111724"/>
+  <path d="M70 12h80m160 0h80" stroke="#526181" stroke-width="1"/>
+  <path d="m216 8-5 4 5 4m28-8 5 4-5 4m-9-9-8 18" fill="none" stroke="#67e8d3" stroke-width="1.5"/>
+  <g text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Consolas, monospace">
+    <text x="230" y="43" font-size="11" fill="#a9b9d2">THE NEXT ARC STARTS WITH ONE COMMIT.</text>
+    <text x="230" y="63" font-size="10" letter-spacing="1.5" fill="#a9b9d2">SEE YOU IN THE NEXT BUILD</text>
+  </g>
+</svg>
